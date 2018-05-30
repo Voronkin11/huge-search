@@ -1,3 +1,147 @@
-*{
-	transition: all .1s ease-in;
+/*
+приховуємо заголовок h2
+*/
+.invisibel{
+	display: none;
+}
+/*задаємо ширину і колік article*/
+.huge-search{
+	width: 100%;
+	background-color: #F1F1F1; 
+	padding-top: 40px;
+	font-family: Arial, sans-serif;
+	color: #c2c2c2;
+}
+/*стилізація форми пошуку*/
+.form-search{
+	display: block;
+	width: 80%;
+	padding: 0;
+	margin: auto;
+}
+
+/*
+стилізуємо поле вводу для пошуку
+*/
+.search{
+	display: inline-block;
+	width: 85%;
+	margin: 0;
+	padding: 0;
+	font-size: 72px;
+	border: none;
+	outline: none;
+	font-weight: bold;
+	color: #ff0000;
+	background-color: #F1F1F1;
+	margin: 0;
+	padding: 0;
+}
+/*стилізуємо кнопку*/
+.search-submit{
+	display: inline-block;
+	width: 10%;
+	height: 80px;
+	background: transparent url(../img/favicon.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	border: none;
+	outline: none;
+	margin: 0;
+	padding: 0;
+}
+/*
+колір тексту плейсхолдера
+*/
+::placeholder{
+	color: #c2c2c2;
+}
+/*
+об'єднуючий блок для всіх поситань
+*/
+.block-for-link{
+	width: 80%;
+	margin: auto;
+	padding: 40px 0;
+	font-size: 0;
+}
+/*
+параметри кожный секції посилань
+*/
+.section-name{
+	display: inline-block;
+	width: 29%;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0; 
+	font-size: 14px;
+}
+/*
+для центральної секції
+*/
+.popular{
+	margin: 0 3%;
+}
+/*
+параметри для списка
+*/
+.section-name ul{
+	display: block;
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+/*
+параметри для елементів списка
+*/
+.section-name li{
+	font-size: medium;
+	margin: 0;
+	padding: 0;
+}
+/*
+параметри для посилань
+*/
+.section-name a{
+	display: block;
+	font-size: 16px;
+	text-decoration: none;
+	color: #c2c2c2;
+	background-color: rgba(118,117,128,0.05);
+	margin: 10px 0;
+	padding: 10px;
+	border-radius: 5px;
+}
+/*
+для картинок першої колонки
+*/
+.people img{
+	border-radius: 50%;
+}
+/*
+для картинок другої і третьої колонки
+*/
+.section-name img{
+	display: inline-block;
+	vertical-align: middle;
+	width: 50px;
+	margin-right: 10px;
+	padding: 0;
+}
+/*
+для параграфів в колонках
+*/
+.section-name p{
+	vertical-align: middle;
+	display: inline-block;
+	margin: 0;
+	width: calc(100% - 65px);
+	box-sizing: border-box;
+}
+/*
+зміна кольорів при наведенні курсора
+*/
+.section-name a:hover{
+	color: #ec5a62;
+	background-color: rgba(118,117,128,0.1);
 }
