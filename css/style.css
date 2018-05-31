@@ -7,7 +7,7 @@
 /*задаємо ширину і колік article*/
 .huge-search{
 	width: 100%;
-	background-color: #F1F1F1; 
+	background-color: #f1f1f1; 
 	padding-top: 40px;
 	font-family: Arial, sans-serif;
 	color: #c2c2c2;
@@ -32,8 +32,8 @@
 	border: none;
 	outline: none;
 	font-weight: bold;
-	color: #ff0000;
-	background-color: #F1F1F1;
+	color: #ec5a62;
+	background-color: #f1f1f1;
 	margin: 0;
 	padding: 0;
 }
